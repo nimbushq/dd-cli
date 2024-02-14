@@ -3,8 +3,6 @@
 import * as yargs from "yargs";
 import { LogCmdArgs, LogsCommand } from "./cmds";
 
-
-
 yargs
   .scriptName("nimbus")
   .usage('$0 <cmd> [args]')

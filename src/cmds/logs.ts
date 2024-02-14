@@ -75,8 +75,6 @@ function searchLogs(opts: { query: string, from: string, to: string, indexes?: s
   return apiInstance
     .listLogs(params)
     .then((data: v2.LogsListResponse) => {
-      console.log(`found ${data.data?.length || 0} results `) // Add nullish coalescing operator
-      // fs.writeJSONSync(outputPath, data, { spaces: 2 })
       return data;
     })
     .catch((error: any) => console.error(error));
@@ -96,6 +94,5 @@ function disaggregateLogs(jsonDataRaw: any) {
     .sort((a, b) => a.unixTimestamp - b.unixTimestamp) // Sort by Unix time
 
 
-  console.log(`found ${sortedNimData.length} disaggregated entries`)
   return sortedNimData;
 }
