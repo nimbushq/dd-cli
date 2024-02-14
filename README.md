@@ -2,6 +2,14 @@
 
 A CLI tool for working with datadog. 
 
+## setup
+
+```sh
+cd dd-cli
+yarn 
+yarn build
+```
+
 ## logs
 
 ```sh
