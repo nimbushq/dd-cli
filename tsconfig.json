@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    // js compatibility
+    "esModuleInterop": true,
+    "target": "ES2021",
+    "module": "commonjs",
+    "lib": [
+      "es2021",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    // ts
+    "declaration": true,
+    "inlineSourceMap": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "inlineSources": true,
+    // optimizations
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": false,
+    // checks
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "incremental": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+    "exactOptionalPropertyTypes": false, // More precise optional (`?`) operator - this breaks default libraries
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true
+  },
+  "exclude": [
+    "node_modules",
+    "cdk.out",
+    "lib"
+  ]
+}
