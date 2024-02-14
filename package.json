@@ -1,7 +1,6 @@
 {
   "name": "@nimbushq/dd-cli",
   "version": "1.0.0",
-  "main": "./lib/index.js",
   "author": "Kevin <kevin@dendron.so>",
   "license": "MIT",
   "devDependencies": {
@@ -9,11 +8,12 @@
     "@types/lodash": "^4.14.202",
     "@types/yargs": "^17.0.32"
   },
+  "bin": {
+    "dd-cli": "lib/bin/dd-cli.js"
+  },
   "scripts": {
     "watch": "tsc -w",
-    "build": "tsc",
-    "test": "cd ../.. && npx jest",
-    "test:proj": "yarn test --selectProjects cli"
+    "build": "tsc"
   },
   "dependencies": {
     "@datadog/datadog-api-client": "^1.17.0",
