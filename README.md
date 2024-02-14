@@ -6,8 +6,8 @@ A CLI tool for working with datadog.
 
 ```sh
 cd dd-cli
-yarn 
-yarn build
+yarn && yarn build
+npm link
 ```
 
 ## logs
