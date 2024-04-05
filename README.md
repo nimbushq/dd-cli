@@ -5,6 +5,7 @@ A CLI tool for working with datadog.
 ## setup
 
 ```sh
+git clone git@github.com:nimbushq/dd-cli.git
 cd dd-cli
 yarn && yarn build
 npm link
