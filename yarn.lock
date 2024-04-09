@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@datadog/datadog-api-client@^1.17.0":
-  version "1.22.0"
-  resolved "https://registry.yarnpkg.com/@datadog/datadog-api-client/-/datadog-api-client-1.22.0.tgz#2b64f9aa685edb02a9e875650a0004c331f4ea52"
-  integrity sha512-8tFElpzo40EGPif77FpoE90VimmH0dDhp9uDtw7OHU9/hWY4KBOxMFfWq70aFrGDBUtlpMmeCuIJnNQvEbzmng==
+"@datadog/datadog-api-client@^1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@datadog/datadog-api-client/-/datadog-api-client-1.23.0.tgz#db7167269be9b9e187c4ac58e934a7712ed3ddd2"
+  integrity sha512-hwt/WIrm63Y1JWQXj5DHihgiYdaJkJ41KJTJDUtRA85B9QpoDA+P/j28xC75IIfoajcEeAe1n9BtRrRZ7Z2x3A==
   dependencies:
     "@types/buffer-from" "^1.1.0"
     "@types/node" "*"
@@ -262,6 +262,11 @@ tr46@~0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
   integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
+typescript@5.3.3:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"
+  integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
 
 undici-types@~5.26.4:
   version "5.26.5"
