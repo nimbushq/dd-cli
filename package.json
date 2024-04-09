@@ -17,7 +17,7 @@
     "build": "npx tsc"
   },
   "dependencies": {
-    "@datadog/datadog-api-client": "^1.17.0",
+    "@datadog/datadog-api-client": "^1.23.0",
     "@t3-oss/env-core": "^0.7.1",
     "fs-extra": "^11.2.0",
     "lodash": "^4.17.21",
